@@ -42,25 +42,7 @@ a:hover{
 /* Class and Id */
 .container{
   margin: 0 auto; /* This automatically sets left/right margins */
-  padding: 5px 30px;
-}
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 600px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 450px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 270px;
-  }
+  width: 1200px;
 }
 
 .card{
@@ -69,7 +51,7 @@ a:hover{
   border-radius: 4px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin: 20px 250px;
+  margin: 20px 0;
 }
 .img-circle{
   border-radius: 50%;
@@ -87,9 +69,11 @@ a:hover{
   padding: 10px;
   border-radius: 4px;
   font-weight: bold;
+  display: inline-block;
 }
 .button:hover{
   background-color: #4A7C59;
+  color: white;
 }
 .list-inline {
   padding-left: 0px;
@@ -114,5 +98,22 @@ a:hover{
 #general{
   padding: 35px;
 }
-
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+  }
+}
 
